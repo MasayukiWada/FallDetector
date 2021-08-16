@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3554A22426C951480054DFB0 /* FallRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3554A22226C951470054DFB0 /* FallRecord+CoreDataClass.swift */; };
+		3554A22526C951480054DFB0 /* FallRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3554A22326C951470054DFB0 /* FallRecord+CoreDataProperties.swift */; };
+		3554A22926C953600054DFB0 /* ResultListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3554A22826C953600054DFB0 /* ResultListCell.swift */; };
 		35868A0C26C9228B00CE96FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868A0B26C9228B00CE96FA /* AppDelegate.swift */; };
 		35868A0E26C9228B00CE96FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868A0D26C9228B00CE96FA /* SceneDelegate.swift */; };
-		35868A1026C9228B00CE96FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868A0F26C9228B00CE96FA /* ViewController.swift */; };
 		35868A1326C9228B00CE96FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35868A1126C9228B00CE96FA /* Main.storyboard */; };
 		35868A1526C9228C00CE96FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35868A1426C9228C00CE96FA /* Assets.xcassets */; };
 		35868A1826C9228C00CE96FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35868A1626C9228C00CE96FA /* LaunchScreen.storyboard */; };
+		35868A2026C922FE00CE96FA /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868A1F26C922FE00CE96FA /* RootTabBarController.swift */; };
+		35868A2226C9241500CE96FA /* ResultListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868A2126C9241500CE96FA /* ResultListViewController.swift */; };
+		35868A2426C9243D00CE96FA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868A2326C9243D00CE96FA /* SettingsViewController.swift */; };
+		35868A2726C9272700CE96FA /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868A2626C9272700CE96FA /* MotionManager.swift */; };
+		35868A4E26C928BB00CE96FA /* MotionManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35868A4C26C928BB00CE96FA /* MotionManager.xcdatamodeld */; };
+		35868A5026C92B0100CE96FA /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868A4F26C92B0100CE96FA /* AccountManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3554A22226C951470054DFB0 /* FallRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FallRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3554A22326C951470054DFB0 /* FallRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FallRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3554A22826C953600054DFB0 /* ResultListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListCell.swift; sourceTree = "<group>"; };
 		35868A0826C9228B00CE96FA /* FallDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35868A0B26C9228B00CE96FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35868A0D26C9228B00CE96FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		35868A0F26C9228B00CE96FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35868A1226C9228B00CE96FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35868A1426C9228C00CE96FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35868A1726C9228C00CE96FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35868A1926C9228C00CE96FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35868A1F26C922FE00CE96FA /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		35868A2126C9241500CE96FA /* ResultListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListViewController.swift; sourceTree = "<group>"; };
+		35868A2326C9243D00CE96FA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		35868A2626C9272700CE96FA /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		35868A4D26C928BB00CE96FA /* MotionManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MotionManager.xcdatamodel; sourceTree = "<group>"; };
+		35868A4F26C92B0100CE96FA /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,45 @@
 			children = (
 				35868A0B26C9228B00CE96FA /* AppDelegate.swift */,
 				35868A0D26C9228B00CE96FA /* SceneDelegate.swift */,
-				35868A0F26C9228B00CE96FA /* ViewController.swift */,
-				35868A1126C9228B00CE96FA /* Main.storyboard */,
+				35868A5126C92B0400CE96FA /* AccountManager */,
+				35868A2826C9277F00CE96FA /* MotionManager */,
+				35868A2526C926FA00CE96FA /* ViewControllers */,
 				35868A1426C9228C00CE96FA /* Assets.xcassets */,
 				35868A1626C9228C00CE96FA /* LaunchScreen.storyboard */,
 				35868A1926C9228C00CE96FA /* Info.plist */,
 			);
 			path = FallDetector;
+			sourceTree = "<group>";
+		};
+		35868A2526C926FA00CE96FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				35868A1126C9228B00CE96FA /* Main.storyboard */,
+				35868A1F26C922FE00CE96FA /* RootTabBarController.swift */,
+				35868A2126C9241500CE96FA /* ResultListViewController.swift */,
+				3554A22826C953600054DFB0 /* ResultListCell.swift */,
+				35868A2326C9243D00CE96FA /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		35868A2826C9277F00CE96FA /* MotionManager */ = {
+			isa = PBXGroup;
+			children = (
+				35868A2626C9272700CE96FA /* MotionManager.swift */,
+				35868A4C26C928BB00CE96FA /* MotionManager.xcdatamodeld */,
+				3554A22226C951470054DFB0 /* FallRecord+CoreDataClass.swift */,
+				3554A22326C951470054DFB0 /* FallRecord+CoreDataProperties.swift */,
+			);
+			path = MotionManager;
+			sourceTree = "<group>";
+		};
+		35868A5126C92B0400CE96FA /* AccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				35868A4F26C92B0100CE96FA /* AccountManager.swift */,
+			);
+			path = AccountManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +185,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35868A1026C9228B00CE96FA /* ViewController.swift in Sources */,
 				35868A0C26C9228B00CE96FA /* AppDelegate.swift in Sources */,
+				35868A2726C9272700CE96FA /* MotionManager.swift in Sources */,
+				35868A2026C922FE00CE96FA /* RootTabBarController.swift in Sources */,
+				35868A4E26C928BB00CE96FA /* MotionManager.xcdatamodeld in Sources */,
 				35868A0E26C9228B00CE96FA /* SceneDelegate.swift in Sources */,
+				35868A2426C9243D00CE96FA /* SettingsViewController.swift in Sources */,
+				35868A2226C9241500CE96FA /* ResultListViewController.swift in Sources */,
+				3554A22526C951480054DFB0 /* FallRecord+CoreDataProperties.swift in Sources */,
+				3554A22426C951480054DFB0 /* FallRecord+CoreDataClass.swift in Sources */,
+				35868A5026C92B0100CE96FA /* AccountManager.swift in Sources */,
+				3554A22926C953600054DFB0 /* ResultListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,6 +349,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fd.FallDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -312,6 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fd.FallDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -341,6 +399,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35868A4C26C928BB00CE96FA /* MotionManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35868A4D26C928BB00CE96FA /* MotionManager.xcdatamodel */,
+			);
+			currentVersion = 35868A4D26C928BB00CE96FA /* MotionManager.xcdatamodel */;
+			path = MotionManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 35868A0026C9228B00CE96FA /* Project object */;
 }
